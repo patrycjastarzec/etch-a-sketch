@@ -38,10 +38,13 @@ const addDiv = () => {
     }  
   
     function applyColor() {
-      newDiv.style.backgroundColor = "blue";    
+      const randomColorValue = Math.floor(Math.random() * 100);
+      newDiv.style.backgroundColor = `rgb(${randomColorValue}%, ${randomColorValue}%, ${randomColorValue}%)`;    
     }   
     
     newDiv.addEventListener("mouseover", applyColor);
+
+    button.disabled = true;
   } 
 }
 
@@ -50,7 +53,7 @@ button.addEventListener('click', addDiv);
 
 
   
-
+//background-color: rgb(255, 0, 0);
 
 
   
