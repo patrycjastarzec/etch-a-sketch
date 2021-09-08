@@ -11,8 +11,15 @@
   align-items: center;
 }
 
+#radio-buttons {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #buttons {
-  height: 10vh;
+  height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,4 +44,13 @@
 .square {
   margin: 0px;
   border: 1px solid rgb(80, 80, 80);
+}
+
+.radio-label {
+  margin-right: 1vw;
+  margin-left: 0.5vw;
+}
+
+button {
+  margin: 0 1vw 0 1vw;
 }
