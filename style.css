@@ -77,3 +77,14 @@ button {
   border-width: 1px;
 }
 
+button:hover {
+  margin: 0 1vw 0 1vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-height: 3.5vh;
+  min-width: 6vw;
+  border-radius: initial;
+  border-style: solid; 
+  border-width: 1px;
+  background-color: teal;
+  color: white;
+}
