@@ -6,18 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
     <script src="app.js" defer></script>
 </head>
 <body>
     <div id='game-title'>ETCH-A-SKETCH</div>
     <div id='radio-buttons'>
-        <div>Select number of rows:</div>
+        <div class='radio-description'>Select number of rows:</div>
         <input type="radio" id="eight" name="number" value="64" checked>
         <label for="eight" class='radio-label'>8</label>
-        <input type="radio" id="ten" name="number" value="100" checked>
+        <input type="radio" id="ten" name="number" value="100">
         <label for="ten" class='radio-label'>10</label>
-        <input type="radio" id="twenty" name="number" value="400" checked>
+        <input type="radio" id="twenty" name="number" value="400">
         <label for="twenty" class='radio-label'>20</label>
+    </div>
+    <div id='color-palette'>
+        <div class='radio-description'>Select color palette:</div>
+        <input type="radio" name="select-color" value="color" checked>
+        <label for="color" class='radio-label'>color</label>
+        <input type="radio" name="select-color" value="gray">
+        <label for="gray" class='radio-label'>gray scale</label>
     </div>
     <div id='buttons'>
         <button id='create-grid'>CREATE GRID</button> 
